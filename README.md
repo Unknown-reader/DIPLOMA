@@ -19,7 +19,7 @@
 # Описание ВКРБ
 
 ![text_editor](img/text_editor.png)
-![code_editor](img/code_editor.png)
+![code_editor](img/code_editor.jpg)
 
 # Запуск совместного редактора
 
