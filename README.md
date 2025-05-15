@@ -28,7 +28,7 @@
 - Рабочий сетевой стек.
 - Терминал с поддержкой ANSI-цветов (Linux/macOS) или Windows Terminal (Windows).
 
-2. Установка зависимостей и запуск сервера
+2. **Установка зависимостей и запуск сервера**
 ```bash
 cd path/to/root
 go mod tidy
@@ -40,4 +40,14 @@ go build -o server main.go
 ./server
 ```
 
-3. 
+3. **Сборка и запуск клиента**
+```bash
+cd client
+go mod tidy
+go run main.go -server ws://localhost:8080 -login <editor_name>
+```
+или
+```bash
+go build -o client main.go
+./client -server ws://localhost:8080 -login <editor_name>
+```
