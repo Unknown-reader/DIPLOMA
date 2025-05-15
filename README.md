@@ -25,5 +25,11 @@
 **Предварительные условия:**
 
 - Установлен Go версии 1.20+ (https://go.dev/dl/).
-- Подключение к сети (для работы WebSocket).
+- Рабочий сетевой стек.
 - Терминал с поддержкой ANSI-цветов (Linux/macOS) или Windows Terminal (Windows).
+
+```bash
+cd path/to/root
+go mod tidy
+go run main.go
+```
