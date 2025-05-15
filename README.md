@@ -47,10 +47,10 @@ go build -o server main.go
 ```bash
 cd client
 go mod tidy
-go run main.go -server ws://localhost:8080 -login <editor_name>
+go run main.go -server ws://Ip:Port -login <editor_name>
 ```
 или
 ```bash
 go build -o client main.go
-./client -server ws://localhost:8080 -login <editor_name>
+./client -server ws://Ip:Port -login <editor_name>
 ```
