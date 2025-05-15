@@ -34,3 +34,10 @@ cd path/to/root
 go mod tidy
 go run main.go
 ```
+или
+```bash
+go build -o server main.go
+./server
+```
+
+3. 
